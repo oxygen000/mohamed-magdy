@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"; // استيراد مكون Link من م
 
 function Nav() {
   return (
-    <nav className="shadow-md bg-white "> {/* شريط التنقل مع إضافة الظل ولون الخلفية الأبيض */}
+    <nav className=""> {/* شريط التنقل مع إضافة الظل ولون الخلفية الأبيض */}
       <div className="flex items-center justify-between h-20 w-full px-6"> {/* تقسيم الشريط إلى جزئين باستخدام flex */}
         
         <ul className="flex items-center gap-4"> {/* قائمة أفقية لعرض الشعارين بجانب بعض */}
@@ -27,8 +27,7 @@ function Nav() {
           {/* رابط يؤدي إلى الصفحة الرئيسية */}
           <Link to={"/"} className="text-lg font-black text-blue-900">
             وزارة الداخلية <br/>
-            قطاع أمن الجيزة <br/>
-            مكتب مساعد الوزير
+            جمهورية مصر العربية<br/>
           </Link>
         </div>
       </div>

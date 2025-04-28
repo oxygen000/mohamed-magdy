@@ -1,6 +1,7 @@
 import { Button, TextField } from "@mui/material"; // استيراد مكونات Button و TextField من مكتبة MUI
 import { FaCloudUploadAlt, FaSearch } from "react-icons/fa"; // استيراد أيقونة البحث من مكتبة react-icons
 import { IoIosArrowBack } from "react-icons/io"; // استيراد أيقونة العودة من مكتبة react-icons
+import "./add-child.css"; // استيراد ملف CSS لتنسيق الصفحة
 
 import { Link } from "react-router-dom"; // استيراد Link من مكتبة react-router-dom لإدارة التنقل بين الصفحات
 import { useState } from "react"; // استيراد useState من React لإدارة حالة المكونات
@@ -41,7 +42,7 @@ function AddPeople() {
   };
 
   return (
-    <section>
+    <section className="fade-in"> {/* إضافة تأثير التلاشي عند تحميل الصفحة */}
       {/* شريط التنقل */}
       <nav className="flex flex-row items-center justify-between p-6 gap-6 mt-10">
         {/* رابط العودة */}

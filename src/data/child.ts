@@ -7,7 +7,7 @@ export const fakeChildrenData = [
     lossDate: "2024-01-15",
     documentID: "DOC12345",
     documentDate: "2024-01-20",
-    image: "https://via.placeholder.com/150", // يمكنك إضافة رابط صورة وهمي هنا
+    image: "./dataimg/malik.jpeg", // يمكنك إضافة رابط صورة وهمي هنا
   },
   {
     childName: "فاطمة علي",
@@ -17,7 +17,7 @@ export const fakeChildrenData = [
     lossDate: "2023-12-05",
     documentID: "DOC23456",
     documentDate: "2023-12-10",
-    image: "https://via.placeholder.com/150",
+    image: "",
   },
   {
     childName: "سارة عبد الله",

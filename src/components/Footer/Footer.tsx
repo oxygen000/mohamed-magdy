@@ -5,7 +5,7 @@ function Footer() {
     });
   
     return (
-      <footer className="w-full border-t-2 border-gray-300 bg-white shadow-md mt-4"> {/* الشريط السفلي مع حدود علوية رمادية وخلفية بيضاء وظل خفيف */}
+      <footer className="w-full  bg-white  mt-4"> {/* الشريط السفلي مع حدود علوية رمادية وخلفية بيضاء وظل خفيف */}
         <div className="max-w-7xl mx-auto px-4"> {/* تحديد العرض الأقصى للشريط السفلي، وتوسيطه أفقياً داخل الصفحة مع إضافة مسافات داخلية */}
           <ul className="flex flex-col md:flex-row items-center justify-between p-4 font-semibold gap-2 text-center text-sm md:text-base"> 
             {/* قائمة عمودية على الأجهزة الصغيرة، تتحول إلى أفقية على الأجهزة الكبيرة باستخدام flex */}
@@ -14,11 +14,11 @@ function Footer() {
                  مقدم / محمد مجدي حسنين</p> {/* أول عنصر في القائمة يعرض نص (اسم الشخص المشرف) */}
             </li>
             <li>
-              Smart ID Facr Police Edition {Data} {/* عرض النص "Smart ID Facr Police Edition" مع السنة الحالية */}
+              Smart ID Face {Data} {/* عرض النص "Smart ID Facr Police Edition" مع السنة الحالية */}
             </li>
             <li>
-              <p>برمجه و أصدار <br/>
-                 مهندس / عمرو علي أبوجريدة</p> {/* عنصر يعرض اسم الشخص المبرمج */}
+              <p>برمجة<br/>
+             مهندس / عبد الحميد رضا </p> {/* عنصر يعرض اسم الشخص المبرمج */}
             </li>
           </ul>
         </div>

@@ -70,7 +70,7 @@ function AddChild() {
 
   
   return (
-    <section className="fade-in">
+    <section className="fade-in"> {/* إضافة تأثير التلاشي عند تحميل الصفحة */}
       {/* شريط التنقل */}
       <nav className="flex flex-row items-center justify-between p-6 gap-6 mt-10">
         {/* رابط العودة */}
