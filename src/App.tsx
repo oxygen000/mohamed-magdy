@@ -17,6 +17,8 @@ import Search from "./main/search/search";
 import Home from "./main/home/Home";
 import Add from "./main/add/add";
 import Details from "./main/details/details";
+import AddChild from "./main/add/add-child";
+import AddPeople from "./main/add/add-people";
 // Comment out missing imports until their components are created
 // import Stats from "./main/stats/stats";
 // import Profile from "./main/profile/Profile";
@@ -40,6 +42,8 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/search" element={<Search />} />
                 <Route path="/add" element={<Add />} />
+                <Route path="/add/add-people" element={<AddPeople />} />
+                <Route path="/add/add-child" element={<AddChild />} />
                 <Route path="/details/:id" element={<Details />} />
                 {/* Comment out routes for missing components */}
                 {/* <Route path="/stats" element={<Stats />} /> */}

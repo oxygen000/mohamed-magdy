@@ -28,7 +28,7 @@ function add() {
 
           {/* رابط لإضافة بيانات شخص */}
           <Link
-            to={"add-people"} // الرابط الذي يؤدي إلى صفحة إضافة بيانات شخص
+            to={"/add-people"} // الرابط الذي يؤدي إلى صفحة إضافة بيانات شخص
             className="flex items-center gap-2 px-4 py-2 rounded-md bg-blue-700 text-white font-medium shadow-md transition-all duration-300 ease-in-out hover:bg-blue-800 hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             اضافة بيانات شخص

@@ -184,63 +184,7 @@ const Home: React.FC = () => {
                 display: { xs: "none", md: "block" },
               }}
             >
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
-                animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                transition={{ duration: 0.8, delay: 0.5 }}
-              >
-                <Box
-                  sx={{
-                    position: "relative",
-                    width: "100%",
-                    height: "350px",
-                    borderRadius: 4,
-                    overflow: "hidden",
-                    boxShadow: "0 10px 40px rgba(0,0,0,0.3)",
-                    border: "4px solid rgba(255,255,255,0.1)",
-                    backgroundImage:
-                      "linear-gradient(135deg, rgba(67, 97, 238, 0.8), rgba(76, 201, 240, 0.8))",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  {/* Abstract decorative elements */}
-                  <Box
-                    sx={{
-                      position: "absolute",
-                      top: 30,
-                      right: 30,
-                      width: 40,
-                      height: 40,
-                      borderRadius: "50%",
-                      background: "rgba(255,255,255,0.2)",
-                    }}
-                  />
-                  <Box
-                    sx={{
-                      position: "absolute",
-                      bottom: 50,
-                      left: 50,
-                      width: 60,
-                      height: 60,
-                      borderRadius: "50%",
-                      background: "rgba(255,255,255,0.15)",
-                    }}
-                  />
-                  <Box
-                    sx={{
-                      position: "absolute",
-                      top: "50%",
-                      left: 20,
-                      width: 20,
-                      height: 20,
-                      borderRadius: "50%",
-                      background: "rgba(255,255,255,0.3)",
-                    }}
-                  />
-                </Box>
-              </motion.div>
+              
             </Box>
           </Box>
         </Container>
